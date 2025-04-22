@@ -13,16 +13,17 @@ public class E3 {
     public static void main(String[] args) {
         java.util.Scanner scanner = new java.util.Scanner(System.in);
         String password = "gustavoav2";
-        String inputPassword;
+        String inputPassword = null;
 
-        do {
+
+        while (inputPassword == null || !inputPassword.equals(password)) {
             System.out.print("Digite a senha: ");
             inputPassword = scanner.nextLine();
 
             if (!inputPassword.equals(password)) {
                 System.out.println("Senha incorreta, tente novamente.");
             }
-        } while (!inputPassword.equals(password));
+        }
 
         System.out.println("Acesso concedido.");
     }

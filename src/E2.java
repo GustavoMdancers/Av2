@@ -10,15 +10,15 @@ public class E2 {
         // Como a classe Scanner foi declarada no momento de criar o objeto, não é necessário importar a classe Scanner de forma explicita.
         java.util.Scanner scanner = new java.util.Scanner(System.in);
         int soma = 0;
-        int numero;
+        int numero = 0;
 
-        do {
+        while (numero >= 0) {
             System.out.print("Digite um número positivo (ou negativo para sair): ");
             numero = scanner.nextInt();
             if (numero >= 0) {
                 soma += numero;
             }
-        } while (numero >= 0);
+        }
 
         System.out.println("Soma dos números positivos: " + soma);
     }
