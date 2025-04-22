@@ -26,6 +26,7 @@ public class E3 {
         }
 
         System.out.println("Acesso concedido.");
+        scanner.close();
     }
 
 }

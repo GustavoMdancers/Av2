@@ -19,5 +19,6 @@ public class E5 {
         } while (numero < 1 || numero > 100);
 
         System.out.println("Número validado: " + numero);
+        scanner.close();
     }
 }

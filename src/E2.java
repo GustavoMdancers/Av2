@@ -21,5 +21,6 @@ public class E2 {
         }
 
         System.out.println("Soma dos números positivos: " + soma);
+        scanner.close();
     }
 }
