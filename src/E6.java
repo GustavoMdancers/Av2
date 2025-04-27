@@ -5,7 +5,7 @@ public class E6 {
     Remover
     Sair
     Requisitos:
-    - Use um loop do..while para permitir que o usuário escolha uma opção;
+    - Use um loop do...while para permitir que o usuário escolha uma opção;
     - Para as opções 1 e 2, exiba uma mensagem indicando que a ação foi executada (a implementação da funcionalidade pode ser simulada);
     - Encerrar o loop somente quando a opção 3 (Sair) for escolhida.
     * */
